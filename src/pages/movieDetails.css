@@ -1,0 +1,43 @@
+.details__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.col{
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    width: 80%;
+}
+.details__image {
+    border-radius: 1.5rem;
+    object-fit: cover;
+}
+.details__parrafo--t{
+    margin-top: 0;
+}
+
+.details__text{
+    font-size: 2rem;
+}
+
+.details__parrafo{
+    margin-top: 1.5rem;
+    text-align: justify;
+}
+
+.details__parrafo--negrita {
+    font-weight: 700;
+}
+
+.details__parrafo--title {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+@media (min-width:768px) {
+    .details__parrafo--title {
+        font-size: 6rem;
+    }
+} 
